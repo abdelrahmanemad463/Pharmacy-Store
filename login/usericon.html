@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b4cbd61d3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body
+
+  >
+    <section class="login " style="position: relative">
+      <form id="login" action="../index.html" style="position: relative; z-index: 11">
+        <div class="container">
+          <div class="logo-img">
+            <img src="./logo.png" alt="" />
+          </div>
+          <input type="text" placeholder="Enter UserName" name="username" required />
+
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+
+          <button type="submit" class="registerbtn">Login</button>
+          <p style="color: rgb(255, 253, 253)">
+            Don't have an account? <a href="#" onclick="showReg()" style="color: rgb(48, 114, 207);">Sign up</a>.
+          </p>
+        </div>
+      </form>
+    </section>
+
+    <section class="register none" id="register">
+      <form  action="../index.html">
+        <div class="container" style="position: relative; z-index: 11">
+          <div class="logo-img">
+            <img src="./logo.png" alt="" />
+          </div>
+          <input
+            type="text"
+            placeholder="Enter Name"
+            name="username"
+            required
+          />
+
+          <input type="text" placeholder="Enter Email" name="email" required />
+          <input type="text" placeholder="National ID" name="img" required />
+
+          <input type="text" placeholder="Enter Phone" name="phone" required />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+
+          <a href="../index.html"><button type="submit" class="registerbtn">Register</button></a>
+          <a href="#" onclick="showLog()" style="color: rgb(4, 4, 4);"><i class='fas fa-key'></i></a>
+        </div>
+      </form>
+    </section>
+    <script>
+      const Login = document.getElementById("login");
+      const Register = document.getElementById("register");
+      function showReg() {
+  Register.classList.remove("none");
+  Login.classList.add("none");
+}
+     function showLog() {
+  Register.classList.add("none");
+  Login.classList.remove("none");
+}
+
+    </script>
+  </body>
+</html>
