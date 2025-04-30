@@ -591,8 +591,6 @@ color: #000000;
 
 .small-img-group {
   display: flex;
-  justify-content: space-between;
-
 }
 
 .small-img-col {
