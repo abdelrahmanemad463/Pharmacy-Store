@@ -34,7 +34,7 @@ body {
   background-color: rgba(41, 26, 59, 0.048);
   height: 50vh;
   padding: 20px;
-  width: 400px;
+  width: 350px;
   margin: auto;
   text-align: left;
   box-shadow: -6px -1px 9px 1px rgba(0, 0, 0, 0.441);
@@ -103,7 +103,7 @@ body {
 }
 
 .register .container {
-  width: 30%;
+  width: 350px;
   margin: auto;
   height: fit-content;
   transform: translateY(9%);
