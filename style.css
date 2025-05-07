@@ -504,15 +504,18 @@ footer p {
   font-size: 13px;
   margin: 0 0 8px 0;
 }
+
 footer a {
 font-size: 13px;
 text-decoration: none;
 color: #222;
 margin-bottom: 10px;
 }
+
 footer .follow {
   margin-top: 20px;
 }
+
 footer .follow i{
   color: #465b52;
   padding-right: 4px;
@@ -538,7 +541,7 @@ footer a:hover {
 footer .copyright {
   width: 100%;
   text-align: center;
-}
+} 
 
 /* Shop Page*/ 
 
